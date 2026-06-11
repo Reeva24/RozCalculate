@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main outer circle / container -->
+    <path
+        android:pathData="M54,20 A34,34 0 1,1 53.9,20 Z"
+        android:strokeColor="#F7D070"
+        android:strokeWidth="3.5"
+        android:fillColor="#1F242D" />
+    
+    <!-- Outer boundary highlight -->
+    <path
+        android:pathData="M54,12 A42,42 0 1,1 53.9,12 Z"
+        android:strokeColor="#2E3541"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+    <!-- Math symbols centered -->
+    <!-- Multiply × -->
+    <path
+        android:pathData="M42,46 L50,54 M50,46 L42,54"
+        android:strokeColor="#E26D5C"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Plus + -->
+    <path
+        android:pathData="M66,38 L66,54 M58,46 L74,46"
+        android:strokeColor="#E5890A"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Minus - -->
+    <path
+        android:pathData="M38,70 L54,70"
+        android:strokeColor="#2C6975"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Equal = -->
+    <path
+        android:pathData="M58,66 L74,66 M58,74 L74,74"
+        android:strokeColor="#F7D070"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+</vector>

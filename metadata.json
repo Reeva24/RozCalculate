@@ -1,0 +1,6 @@
+{
+  "name": "RozCalculate",
+  "description": "Retro-themed, feature-rich Roz-11 replica desktop calculator with local physical mode and Gemini AI Visual math solver.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
