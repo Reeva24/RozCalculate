@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "echo 'Running...' && exit 0",
-    "build": "echo 'Building...' && mkdir -p dist && cp index.html dist/ 2>/dev/null || true"
+    "build": "mkdir -p dist && cp index.html dist/ 2>/dev/null || true && cp -r src dist/ 2>/dev/null || true && cp *.js dist/ 2>/dev/null || true && cp *.css dist/ 2>/dev/null || true"
   },
   "dependencies": {}
 }
+
