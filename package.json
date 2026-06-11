@@ -1,0 +1,11 @@
+{
+  "name": "RozCalculate",
+  "version": "1.0.0",
+  "description": "Roz Calculate",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Running...' && exit 0",
+    "build": "echo 'Building...' && mkdir -p dist && cp index.html dist/ 2>/dev/null || true"
+  },
+  "dependencies": {}
+}
